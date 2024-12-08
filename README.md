@@ -8,10 +8,13 @@ This repository contains the implementation of a Convolutional Neural Network (C
 - **Loss**: 0.5148
 
 ## Project Structure
-- `datasets/`: Script(s) for loading and preprocessing the dataset.
-- `explore/`: Python scripts for exploratory data analysis.
-- `train/`: Python scripts for training and evaluation of the model.
 - `reports/`: Documentation, assignment reports, and experiment tracking reports (e.g., Weights & Biases logs).
+- `notebooks/`: Jupyter notebooks for data exploration and experimentation.
+- `scripts/`: Python scripts organised by functionality:
+  - `datasets/`: Scripts for loading and preprocessing the dataset.
+  - `train/`: Scripts for training and evaluating the model.
+  - `explore/`: Scripts for exploratory data analysis.
+  - `models/`: Scripts defining and managing model architectures.
 
 ## Key Features
 - Tackled a heavily imbalanced dataset using data augmentation and weighted loss functions.
@@ -21,7 +24,6 @@ This repository contains the implementation of a Convolutional Neural Network (C
 
 ## Getting Started
 This project is part of my portfolio and is intended for demonstration purposes only. The code, reports, and scripts showcase my skills in building and optimising CNNs for image classification tasks. While the dataset cannot be shared due to licensing restrictions, the project structure and reports outline the workflow and methodology.
-
 
 ## Dataset
 The dataset consists of approximately 3800 labelled images of skin lesions across 7 classes. Due to licensing restrictions, the dataset is not included in this repository. If you'd like to replicate the project, consider using publicly available datasets such as [ISIC Archive](https://www.isic-archive.com/).
@@ -42,7 +44,7 @@ You are free to view the material in this repository for personal or portfolio p
 All reports and documentation are for demonstration purposes only and must not be reused for plagiarism or academic submissions.
 
 ## Acknowledgements
-- Dataset sourced from [ISIC Archive](https://www.isic-archive.com/) or similar datasets.
-- Tools like [Weights & Biases](https://wandb.ai/) for facilitating experiment tracking.
+- Dataset sourced from [ISIC Archive](https://www.isic-archive.com/).
+- [Weights & Biases](https://wandb.ai/) for facilitating experiment tracking.
 
 ---
